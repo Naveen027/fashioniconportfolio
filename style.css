@@ -260,7 +260,13 @@ footer {
 /* ========== MOBILE RESPONSIVE ========== */
 @media (max-width: 768px) {
     .bg-dark{
-        background-color: black !important;
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .navbar-nav{
+        background-color: black;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
     }
     .navbar-toggler{
         color: black !important;
